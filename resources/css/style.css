@@ -1,6 +1,7 @@
 html {
   font-size: 18px;
   color: white;
+  font-family: Helvetica;
 }
 
 
@@ -27,7 +28,6 @@ html {
 }
 
 .logo p {
-  font-family: Helvetica;
   font-size: 1rem;
 }
 
@@ -37,4 +37,34 @@ html {
   background-image: url("../images/moto.jpeg");
   background-size: cover;
   background-position: center;
+}
+
+.titlebox {
+  background-color: black;
+  width: 20rem;
+  height: auto;
+  position: relative;
+  top: 9rem;
+  padding: 2rem 3rem;
+  font-weight: bold;
+}
+
+.titlebox p {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.titlebox h1 {
+  font-size: 2rem;
+}
+
+nav {
+  background-color: firebrick;
+  padding: 0.75rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
