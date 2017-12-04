@@ -4,30 +4,29 @@ html {
   font-family: Helvetica;
 }
 
-
 .container {
   width: 960px;
   margin: 0 auto;
 }
 
-.logo {
+.top {
   background-color: black;
   width: 100%;
 }
 
-.logo .container {
+.top .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0.66rem 0;
 }
 
-.logo img {
+.top img {
   height: 1.5rem;
   margin: 0 1rem 0 0.5rem;
 }
 
-.logo p {
+.top p {
   font-size: 1rem;
 }
 
@@ -67,4 +66,52 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.box {
+  width: 30%;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box img {
+  height: 6rem;
+  width: auto;
+  margin: 2rem auto;
+}
+
+.caption {
+  background-color: black;
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 4rem 0;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.datatitle {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.datatext {
+  color: black;
 }
