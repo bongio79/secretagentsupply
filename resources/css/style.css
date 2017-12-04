@@ -68,6 +68,10 @@ nav {
   align-items: center;
 }
 
+.menumobile {
+  display: none;
+}
+
 .products {
   display: flex;
   justify-content: space-between;
@@ -122,3 +126,27 @@ footer {
   display: flex;
   align-items: center;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menumobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #glasses {
+    display: none;
+  }
+
+  .box {
+    width: 47%;
+  }
