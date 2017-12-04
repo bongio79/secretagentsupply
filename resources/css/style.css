@@ -5,7 +5,7 @@ html {
 }
 
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -123,16 +123,15 @@ nav {
 footer {
   background-color: black;
   height: 5rem;
+}
+
+.copy {
   display: flex;
   align-items: center;
+  height: 5rem;
 }
 
 @media only screen and (max-width: 1024px) {
-  .container {
-    width: 100%;
-    margin: 0;
-  }
-
   .menu {
     display: none;
   }
@@ -150,3 +149,62 @@ footer {
   .box {
     width: 47%;
   }
+}
+
+@media only screen and (max-width: 470px) {
+  .top p {
+    display: none;
+  }
+
+  .top img {
+    margin: 0 auto;
+  }
+
+  .banner {
+    height: 15rem;
+    width: 100%;
+  }
+
+  .titlebox {
+    width: 100%;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .titlebox p {
+    font-size: 0.77rem;
+  }
+
+  .titlebox h1 {
+    font-size: 1rem;
+  }
+
+  #watch {
+    display: none;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 3rem auto 4rem auto;
+  }
+
+  .data {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  .copy {
+    justify-content: center;
+  }
+
+}
